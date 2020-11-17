@@ -1,3 +1,3 @@
 const answer = prompt('List numbers');
-const arrOfNumbers = (',');
+const arrOfNumbers = answer.split(',');
 console.log(arrOfNumbers); 
