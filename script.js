@@ -1,9 +1,8 @@
-const answer = prompt('Are you here');
+let answer = prompt('Are you there?');
+let booleanAnswer = answer ==='false' ? false : true;
 
-if (answer==null) {
-    console.log("Ok =(')");
-} else if(answer !=='-1') {
-    console.log('Not here');
+if (answer ==='false') {
+    booleanAnswer = false;
+} else {
+    booleanAnswer = true;
 }
-
-console.log('Continue...')
