@@ -1,5 +1,3 @@
-const app = document.querySelector("#app")
-
-app.textContent="Hello world";
-
-console.log('Hello world');
+const randomNumber = Math.floor(Math.random() * (100-10) + 10);
+let answer = prompt("Enter some number");
+console.log(prompt =+ randomNumber);
