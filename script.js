@@ -1,5 +1,3 @@
-const app = document.querySelector("#app")
-
-app.textContent="Hello world";
-
-console.log('Hello world');
+const answer = prompt('List numbers');
+const arrOfNumbers = answer.split(',');
+console.log(arrOfNumbers); 
