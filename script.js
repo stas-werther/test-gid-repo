@@ -1,7 +1,11 @@
-let firtsNum = Number(prompt('Enter 1st number'));
-let secondNum = Number(prompt('Enter 2nd number'));
-let thirdNum = Number(prompt('Enter 3rd number'));
+const box = document.querySelector('.box');
+box.style.marginLeft = '0px';
 
-let average = (firtsNum + secondNum + thirdNum)/3;
-console.log(average);
-;
+const maxMargin = 200;
+let currentMargin = 200;  
+
+do{
+    +currentMargin;
+    box.style.marginLeft = `${currentMargin}px`;
+
+} while (currentMargin <= 200);

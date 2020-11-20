@@ -1,0 +1,13 @@
+.box {
+    --size: 200px;
+    width: var(--size);
+    height: var(--sizw);
+    background-color: teal;
+    border-radius: calc(var(--size) * 0.1);
+    transition: margin-left 2s;
+}
+
+
+.box.dark {
+    --color: teal;
+}
