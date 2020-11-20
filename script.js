@@ -1,11 +1,9 @@
-const box = document.querySelector('.box');
-box.style.marginLeft = '0px';
-
-const maxMargin = 200;
-let currentMargin = 200;  
-
+let randomNumber = Math.floor(Math.random() * (100-10) + 10);
+let luckyNumber;
 do{
-    +currentMargin;
-    box.style.marginLeft = `${currentMargin}px`;
+    luckyNumber = prompt('Enter some number');
+} while (luckyNumber !== null && Number(luckyNumber) !== randomNumber);
 
-} while (currentMargin <= 200);
+console.log('Random number was', randomNumber)
+
+ 
