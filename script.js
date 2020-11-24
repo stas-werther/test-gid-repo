@@ -11,21 +11,23 @@ let amount = +prompt('Amount of number') || 0;
 
 
 
-const calc = function(number, amountOfNumbers ) {
+const calc = (number, amountOfNumbers ) => {
+    let str = '';
      for (let i = 0; i < amountOfNumbers; i++) {
+         str += `,${(i + 1) * number}`;
          console.log( (i + 1) * number);
     }
 };
 
 /**
- * 
+ * Return sum of values
  * @param {number} a First operand
  * @param {number} b Second operand
  */
 
-const sum = function(a, b) {
+const sum = (a = 0, b = 0) =>  {
     return a + b;
 }
 
-const resultOfSUm = sum(n, amount);
-console.log(resultOfSUm);
+const resultOfCalc = calc(4, 10);
+console.log(resultOfCalc + 200);
