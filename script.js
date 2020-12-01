@@ -1,4 +1,4 @@
-let n = +prompt('Enter a number') || 0;
+/*let n = +prompt('Enter a number') || 0;
 let amount = +prompt('Amount of number') || 0;
 
 
@@ -11,7 +11,7 @@ let amount = +prompt('Amount of number') || 0;
 
 
 
-const calc = (number, amountOfNumbers ) => {
+/*const calc = (number, amountOfNumbers ) => {
     let str = '';
      for (let i = 0; i < amountOfNumbers; i++) {
          str += `,${(i + 1) * number}`;
@@ -25,9 +25,9 @@ const calc = (number, amountOfNumbers ) => {
  * @param {number} b Second operand
  */
 
-const sum = (a = 0, b = 0) =>  {
+/*const sum = (a = 0, b = 0) =>  {
     return a + b;
 }
 
 const resultOfCalc = calc(4, 10);
-console.log(resultOfCalc + 200);
+console.log(resultOfCalc + 200);*/

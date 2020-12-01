@@ -1,14 +1,35 @@
-/*let n =5,
-    amount = 100,
-    i = 0;
-    numbersShown = 0;
+function cookTheSpell() {
+    
+    console.log('Cooking...', this.id)
+    }
+const kettle = {
+    id: 1,
+    ingradient1: '',
+    ingradient2: '',
+    ingradient3: '',
+    ingradient4: '',
+    cookTheSpell,
+}
 
-    do {
-        if (++i % n) continue;
-        numbersShown++;
-        console.log(i)
-    } while (numbersShown<= amount);
 
-    for (let i = 0; i <100; i++) {
-        console.log((i + 1) * 5);
-    }*/
+const LightningSpell = {
+    ingradient1: '',
+    ingradient2: '',
+    ingradient3: '',
+    ingradient4: '',
+    cookTheSpell,
+}
+const FireballSpell = {
+    ingradient1: '',
+    ingradient2: '',
+    ingradient3: '',
+    ingradient4: '',
+}
+
+const magicbook = {
+    firstSpell: LightningSpell,
+    secondSpell: FireballSpell,
+}
+kettle.cookTheSpell();
+LightningSpell.cookTheSpell();
+    
