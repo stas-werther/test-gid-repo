@@ -31,3 +31,15 @@ let amount = +prompt('Amount of number') || 0;
 
 const resultOfCalc = calc(4, 10);
 console.log(resultOfCalc + 200);*/
+// const user = {
+//     name: 'User 1',
+//     salary: 1000,
+//     language: 'JavaScript',
+//     tasks: 5,
+//   };
+
+  function User() {
+    return {};
+  }
+  const user  = new User();
+  console.log(user);
