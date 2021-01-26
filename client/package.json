@@ -1,0 +1,17 @@
+{
+  "name": "test-gid-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stas-werther/test-gid-repo/issues"
+  },
+  "homepage": "https://github.com/stas-werther/test-gid-repo#readme"
+}
