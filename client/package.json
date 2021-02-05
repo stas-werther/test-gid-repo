@@ -14,8 +14,11 @@
   },
   "homepage": "https://github.com/stas-werther/test-gid-repo#readme",
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "scss-loader": "0.0.1",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
-  } 
+  },
+  "dependencies": {}
 }
